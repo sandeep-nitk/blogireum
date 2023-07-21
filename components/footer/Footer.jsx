@@ -8,10 +8,10 @@ const Footer = () => {
     <div className={styles.container}>
       <div>©2023 Blogireum. All rights reserved.</div>
       <div className={styles.social}>
-        <Image src={facabook}  width={15} height={15} className={styles.icon} alt="Lama Dev Facebook Account" />
-        <Image src={facabook}  width={15} height={15} className={styles.icon} alt="Lama Dev Facebook Account" />
-        <Image src={facabook}  width={15} height={15} className={styles.icon} alt="Lama Dev Facebook Account" />
-        <Image src={facabook}  width={15} height={15} className={styles.icon} alt="Lama Dev Facebook Account" />
+        <Image src={facabook}  width={15} height={15} className={styles.icon} alt="facebook" />
+        <Image src={facabook}  width={15} height={15} className={styles.icon} alt=" Facebook " />
+        <Image src={facabook}  width={15} height={15} className={styles.icon} alt="Facebook " />
+        <Image src={facabook}  width={15} height={15} className={styles.icon} alt=" Facebook" />
      
       </div>
     </div>
