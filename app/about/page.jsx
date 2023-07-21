@@ -3,14 +3,14 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "../../components/Button/Button";
 import Aboutimg from "../../public/designer-giving-a-keynote-2.svg"
-const About = () => {
+const about = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
           src={Aboutimg}
           fill={true}
-          alt=""
+          alt="about img page"
           className={styles.img}
         />
         <div className={styles.imgText}>
@@ -60,4 +60,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;
