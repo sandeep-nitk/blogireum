@@ -1,0 +1,58 @@
+
+.title {
+  font-size: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.imgContainer {
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+
+.image {
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input,
+.textArea {
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+ 
+  
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #0b61ae;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  box-shadow: 0px 2px 4px rgb(15 23 31 / 2%), 0px 4px 8px rgb(15 23 31 / 2%);
+
+}
