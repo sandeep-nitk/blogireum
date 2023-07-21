@@ -15,7 +15,7 @@ async function getData() {
   return res.json();
 }
 
-const blog = async () => {
+const Blog = async () => {
 
   const data = await getData();
 
@@ -45,4 +45,4 @@ const blog = async () => {
   );
 };
 
-export default blog;
+export default Blog;
